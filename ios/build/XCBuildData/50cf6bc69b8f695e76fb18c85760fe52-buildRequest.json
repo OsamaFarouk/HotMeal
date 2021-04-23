@@ -1,0 +1,58 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "911ec6f02e2344c7ba794d17bfc5cf9f88a783a885d8b0b3beb2e9f90bde3f49"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64e",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos14.5",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "armv4t",
+        "armv5",
+        "armv6",
+        "armv7",
+        "armv7f",
+        "armv7s",
+        "armv7k",
+        "arm64",
+        "arm64e"
+      ],
+      "targetArchitecture" : "arm64e"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/osamaahmed/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/osamaahmed/Library/Developer/Xcode/DerivedData/Runner-efpblioezxbfshfkuybhalwvzryt/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/osamaahmed/Library/Developer/Xcode/DerivedData/Runner-efpblioezxbfshfkuybhalwvzryt/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
